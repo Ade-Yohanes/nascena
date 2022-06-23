@@ -31,7 +31,7 @@ class FrontendController extends Controller
                     ->get();
         
 
-        return view('frontend.home',[ 
+        return view('Frontend.home',[ 
             'client'=>$client, 
             'data'=>$product,
             'brand'=>$brand ,
